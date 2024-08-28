@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/ksfe-chitty.jpg"
 
 export const HERO_CONTENT = `Ambitious Frontend Software Developer with 2 years of experience in React.js seeking a challenging role to utilize extensive technical knowledge, robust project management abilities, and versatility. Proven ability to thrive in collaborative environments, contribute innovative solutions, and exceed expectations. Eager to apply skills and learn new technologies within a company committed to technological advancement.`;
 
@@ -41,6 +42,12 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "KSFE Chitty Management",
+    image: project5,
+    description: "Developed a web project to manage chitties and collect details of users those who are interested to joining the chitties and manage the listing easily",
+    technologies: ["ReactJS", "Node.js", "MySQL"],
+  },
   {
     title: "Interactive Web Applications",
     image: project1,
